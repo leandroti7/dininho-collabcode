@@ -1,0 +1,13 @@
+.botao-dino{
+    margin: 10px auto 30px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url('../../img/Btn.png');
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
