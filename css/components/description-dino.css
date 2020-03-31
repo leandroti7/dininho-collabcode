@@ -1,0 +1,8 @@
+@media only screen and (min-width: 768px){
+    .description-dino{
+        display: flex;
+        justify-content: center;
+        /* text-align: left; */
+        flex-direction: column;
+    }
+}

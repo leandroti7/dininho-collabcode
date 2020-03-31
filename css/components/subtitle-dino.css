@@ -3,3 +3,21 @@
   font-family: 'Bungee', sans-serif;
   margin-bottom: var(--gap-medium);
 }
+
+@media only screen and (min-width: 768px){
+  .subtitle-dino{
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: var(--gap-medium);
+    margin-bottom: var(--gap-medium);
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .subtitle-dino{
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: var(--gap-big);
+    margin-bottom: var(--gap-big);
+  }
+}

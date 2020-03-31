@@ -43,3 +43,32 @@
 .separator-dino::after {
   border-radius: 2px 0 0 2px
 }
+
+@media only screen and (min-width: 768px){
+  .separator-dino{
+    --half-width-egg: 18px;
+    --half-width-eggs: 40px;
+    padding-left: var(--gap-big);
+    padding-right: var(--gap-big);
+    background-size: auto 28px;
+    height: 28px;
+  }
+  .separator-dino.-all{
+    background-size: auto 80px;
+    height: 78px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .separator-dino{
+    --half-width-egg: 21px;
+    --half-width-eggs: 50px;
+    padding-left: var(--gap-large);
+    padding-right: var(--gap-large);
+    background-size: auto 36px;
+    height: 36px;
+  }
+  .separator-dino.-all{
+    background-size: auto 80px;
+    height: 78px;
+  }
+}

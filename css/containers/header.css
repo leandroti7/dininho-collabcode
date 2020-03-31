@@ -12,7 +12,7 @@ header .bg{
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
 
 header .logo-dino{
@@ -22,21 +22,20 @@ header .logo-dino{
     top: 30%;
 }
 
-@media only screen and (min-width: 375px) {
-    header{
-        height: 280px;
-    }
-}
 @media only screen and (min-width: 425px) {
-    header{
-        height: 310px;
-    }
     header .logo-dino{
         width: 230px;
         height: 80px;
         /* top: 25%; */
     }
 }
+
+@media only screen and (min-width: 545px) {
+    header .logo-dino{
+        top: 10%;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     header{
         height: 420px;
@@ -44,13 +43,26 @@ header .logo-dino{
     header .bg{
         background: url('../../img/Screenshot\ from\ treiler_pronto\ 4.png');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center bottom;
         background-size: cover;
         height: 450px;
     }
     header .logo-dino{
         width: 320px;
         height: 115px;
+        top: 15%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    header{
+        height: 465px;
+    }
+    header .bg{
+        height: 630px;
+    }
+    header .logo-dino{
+        width: 504px;
+        height: 170px;
         top: 15%;
     }
 }

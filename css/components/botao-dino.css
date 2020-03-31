@@ -11,3 +11,26 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+@media only screen and (min-width: 768px){
+    .botao-dino{
+        margin: 16px auto 40px;
+        width: 240px;
+        height: 60px;
+        background: url('../../img/botao\ 1.png');
+        font-size: 25px;
+        line-height: 4px;
+        background-size: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .botao-dino{
+        margin: 20px auto 50px;
+        width: 320px;
+        height: 81px;
+        font-size: 31px;
+        line-height: 30px;
+    }
+}

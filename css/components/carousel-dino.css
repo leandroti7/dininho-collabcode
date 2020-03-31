@@ -1,0 +1,19 @@
+.carousel-dino{
+    position: relative;
+    height: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    overflow: hidden;
+}
+
+.carousel-dino > .item{
+    position: absolute;
+    transform: scale(0.3);
+    transition: transform 300ms linear;
+}
+
+.carousel-dino .item > .-left{
+
+}

@@ -2,3 +2,14 @@
   padding-left: var(--gap-small);
   padding-right: var(--gap-small);
 }
+
+@media only screen and (min-width: 768px){
+  .section-dino{
+    padding-left: var(--gap-big);
+    padding-right: var(--gap-big);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

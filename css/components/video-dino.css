@@ -35,6 +35,7 @@
   border-radius: 50%;
   text-indent: -9999px;
   transition: opacity 200ms linear;
+  color: transparent;
 }
 
 .wrapper-video-dino.-play > .play {
@@ -49,4 +50,15 @@
   border-bottom: 18px solid transparent;
   border-left: 25px solid var(--color-third);
   transform: translateX(2px);
+}
+
+@media only screen and (min-width: 768px){
+  .wrapper-video-dino{
+    margin: 0 var(--gap-medium);
+  }
+}
+@media only screen and (min-width: 1024px){
+  .wrapper-video-dino{
+    margin: 0 30px;
+  }
 }

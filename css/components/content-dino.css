@@ -3,3 +3,12 @@
   color: white;
   text-align: center;
 }
+
+@media only screen and (min-width: 768px){
+  .content-dino{
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
